@@ -1,6 +1,6 @@
 /*
 Single Source Shortest Path Algo for non_negative weights
-TC : O ( (E)log(V))
+TC : O ( (V+E)log(V))
 SC : O ( |E| +|v| )
 take shorted dist from top of Min Heap -> and edge relax it  
 
