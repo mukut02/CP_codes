@@ -9,8 +9,6 @@ using namespace std;
 typedef long long ll;
 typedef unsigned long long ull;
 typedef long double lld;
-typedef pair<int,int> P;
-typedef pair<int, pair<int,int>> PP;
 
 typedef tree<pair<ll, ll>, null_type, less<pair<ll, ll>>, rb_tree_tag, tree_order_statistics_node_update > pbds; 
 // find_by_order, order_of_key
@@ -32,6 +30,9 @@ typedef tree<pair<ll, ll>, null_type, less<pair<ll, ll>>, rb_tree_tag, tree_orde
 #define vpi vector<pair<int,int>> 
  
 #define int long long
+typedef pair<int,int> P;
+typedef pair<int, pair<int,int>> PP;
+
 /*---------------------------------------------------------------------------------------------------------------------------*/
 //Maths & NT
 ll gcd(ll a, ll b) {if (b > a) {return gcd(b, a);} if (b == 0) {return a;} return gcd(b, a % b);}
@@ -167,8 +168,10 @@ public:
    // build -> O(n), update->O(logn), query-> O(logn)
 };
 
+
+
 void solve(){
-   // EKHANE LEKH
+   //EKHANE LEKH
 }
   
 signed main(){
@@ -181,4 +184,3 @@ signed main(){
       solve();
    }
 }
-
